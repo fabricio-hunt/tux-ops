@@ -66,10 +66,10 @@ export default function Services() {
     <section id="services" className="py-32 bg-[#050505]">
       <div className="container mx-auto px-6">
         <div className="text-center mb-20">
-          <h2 className="font-teko text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-4">
+          <h2 className="font-teko text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-4">
             Nossos <span className="text-primary">Serviços</span>
           </h2>
-          <p className="font-inter text-gray-500 max-w-2xl mx-auto text-lg">
+          <p className="font-inter text-gray-500 max-w-2xl mx-auto text-base md:text-lg">
             Engenharia de software focada em resolver desafios operacionais complexos.
           </p>
         </div>

@@ -15,10 +15,10 @@ export default function CallToAction() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="font-teko text-6xl md:text-8xl font-bold uppercase tracking-tight text-white mb-6">
+          <h2 className="font-teko text-5xl sm:text-6xl md:text-8xl font-bold uppercase tracking-tight text-white mb-6">
             Pronto para <span className="text-primary">Evoluir?</span>
           </h2>
-          <p className="font-inter text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-12">
+          <p className="font-inter text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mb-12">
             Vamos discutir como nossa engenharia pode transformar seus desafios operacionais em vantagem competitiva.
           </p>
           

@@ -89,12 +89,12 @@ export default function About() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full max-w-4xl text-center flex flex-col items-center"
         >
-          <h2 className="font-teko text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-6">
+          <h2 className="font-teko text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-6">
             Nós somos a <span className="text-primary">TuxOps</span>
           </h2>
           <div className="w-20 h-1 bg-primary mb-8"></div>
           
-          <div className="space-y-6 font-inter text-gray-400 text-lg md:text-xl leading-relaxed">
+          <div className="space-y-6 font-inter text-gray-400 text-base sm:text-lg md:text-xl leading-relaxed">
             <p>
               A TuxOps não é apenas uma consultoria de TI. Somos arquitetos de infraestrutura, engenheiros de plataforma e especialistas em automação dedicados a construir as bases tecnológicas das empresas do futuro.
             </p>

@@ -62,7 +62,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <h1 className="font-teko text-6xl md:text-8xl lg:text-9xl uppercase font-bold tracking-tight text-white mb-4 leading-[0.9]">
+          <h1 className="font-teko text-5xl sm:text-6xl md:text-8xl lg:text-9xl uppercase font-bold tracking-tight text-white mb-4 leading-[0.9]">
             We Build <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-500">
               Intelligent Operations
@@ -76,7 +76,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="max-w-2xl mx-auto"
         >
-          <p className="font-inter text-gray-400 text-lg md:text-xl mb-10">
+          <p className="font-inter text-gray-400 text-base sm:text-lg md:text-xl mb-10">
             TuxOps — We Build Intelligent Operations. Engenharia de plataformas, infraestrutura em nuvem e IA aplicada para empresas visionárias.
           </p>
         </motion.div>
@@ -85,11 +85,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="flex flex-col sm:flex-row gap-6"
+          className="flex flex-col sm:flex-row w-full sm:w-auto gap-4 sm:gap-6"
         >
           <a
             href="#services"
-            className="group relative px-8 py-4 bg-primary text-black font-teko text-xl tracking-widest uppercase overflow-hidden"
+            className="group relative w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-primary text-black font-teko text-lg sm:text-xl tracking-widest uppercase overflow-hidden"
           >
             <span className="relative z-10">Conheça nossos serviços</span>
             <div className="absolute inset-0 h-full w-0 bg-white transition-all duration-300 ease-out group-hover:w-full z-0"></div>
@@ -97,7 +97,7 @@ export default function Hero() {
           
           <a
             href="#contact"
-            className="group px-8 py-4 border border-white/30 text-white font-teko text-xl tracking-widest uppercase hover:border-primary transition-colors duration-300 relative overflow-hidden"
+            className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 border border-white/30 text-white font-teko text-lg sm:text-xl tracking-widest uppercase hover:border-primary transition-colors duration-300 relative overflow-hidden"
           >
             <span className="relative z-10">Solicite um orçamento</span>
             <div className="absolute inset-0 h-full w-full bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"></div>

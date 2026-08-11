@@ -17,10 +17,10 @@ export default function Workflow() {
       <div className="container mx-auto px-6 relative">
         <div className="mb-24 text-center md:text-left md:flex justify-between items-end">
           <div>
-            <h2 className="font-teko text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-4">
+            <h2 className="font-teko text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-4">
               Como <span className="text-primary">Trabalhamos</span>
             </h2>
-            <p className="font-inter text-gray-500 text-lg max-w-xl">
+            <p className="font-inter text-gray-500 text-base md:text-lg max-w-xl">
               Metodologia baseada em ciclos rápidos, segurança intrínseca e infraestrutura como código.
             </p>
           </div>

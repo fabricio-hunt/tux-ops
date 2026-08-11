@@ -6,10 +6,10 @@ export default function Cases() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-end mb-16">
           <div>
-            <h2 className="font-teko text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-2">
+            <h2 className="font-teko text-4xl sm:text-5xl md:text-7xl font-bold uppercase tracking-tight text-white mb-2">
               Cases de <span className="text-primary">Sucesso</span>
             </h2>
-            <p className="font-inter text-gray-500 text-lg">
+            <p className="font-inter text-gray-500 text-base md:text-lg">
               Soluções reais. Resultados mensuráveis.
             </p>
           </div>
